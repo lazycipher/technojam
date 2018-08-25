@@ -1,12 +1,32 @@
 .white-text{
     color:rgb(212, 214, 218);
 }
-
-
+.text-size-30{
+    font-size: 30px;
+}
+.text-nd{
+    font-family:nowdance;
+}
+.tj-background{
+    background: #27a1f4;
+    background-image: url(../images/4685.jpg);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 25%;
+}
+.header-color{
+    background:#245aa5;
+}
 
 
 /* Custom Fonts */
 @font-face {
     font-family: 'nowdance';
-    src: URL('../fonts/Nowdance\ Regular.ttf') format('ttf');
+    src: URL('../fonts/NowdanceRegular.ttf') format('ttf'),
+         URL('../fonts/NowdanceRegular.woff') format('woff'),
+         URL('../fonts/NowdanceRegular.woff2') format('woff2'),
+         URL('../fonts/NowdanceRegular.eot') format('eot'),
+         URL('../fonts/NowdanceRegular.otf') format('otf'),
+         URL('../fonts/NowdanceRegular.svg') format('svg');
   }
