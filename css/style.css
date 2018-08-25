@@ -1,0 +1,12 @@
+.white-text{
+    color:rgb(212, 214, 218);
+}
+
+
+
+
+/* Custom Fonts */
+@font-face {
+    font-family: 'nowdance';
+    src: URL('../fonts/Nowdance\ Regular.ttf') format('ttf');
+  }
