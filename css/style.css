@@ -15,6 +15,10 @@
     background-size: 100%;
     background-position-y: 25%;
 }
+.rest-body{
+    background: #f6fafd;
+    
+}
 .header-color{
     background:#245aa5;
 }
